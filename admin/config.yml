@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: flipper9020/meine-webseite
+  repo: flipper9020/d8v
   branch: main
 
 media_folder: "images"
