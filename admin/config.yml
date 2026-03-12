@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: flipper9020/meine-webseite
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "seiten"
+    label: "Seiten"
+    folder: "content"
+    create: true
+    slug: "{{title}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
